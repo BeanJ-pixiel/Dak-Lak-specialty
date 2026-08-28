@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đặc sản Tây Nguyên</title>
+    <meta name="description" content="Khám phá những đặc sản độc đáo của Tây Nguyên, từ cà phê thơm ngon đến các món ăn truyền thống hấp dẫn.">     
+    <link rel="stylesheet" href="css/style.css">   
+</head>
+<body>
+    <header>
+        <h1>Đặc sản Tây Nguyên</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="products.html">Sản phẩm </a></li>
+                <li><a href="contact.html">Liên hệ</a></li>
+            </ul>   
+        </nav> 
+
+    </header>
+
+    <main>
+        <section class="product">
+            <h1>Danh sách sản phẩm</h1>
+            <p>Khám phá các sản phẩm đặc sản nổi bật của Tây Nguyên.</p>
+            <aside class="product-filters">
+                <h2>Bộ lọc sản phẩm</h2>
+                <form id="filter-form">
+                    <label for="category">Danh mục:</label>
+                        <select id="category" name="category">
+                            <option value="">Tất cả</option>
+                            <option value="coffee">Cà phê</option>
+                            <option value="tea">Trà</option>
+                            <option value="spices">Gia vị</option>
+                            <option value="honey">Mật ong</option>
+                            <option value="dried-fruits">Quả khô</option>
+                            <option value="clothes">Thời trang</option>
+                        </select>
+                    </label>
+                </form>
+            </aside>
+                    
+            <div class="product-list">
+                 <article class="product-card">
+                    <img src="images/coffee.jpg" alt="Cà phê Buôn Ma Thuột">
+                    <h3>Cà phê Buôn Ma Thuột</h3>
+                    <p>Hương vị đậm đà, đặc trưng của núi rừng Tây Nguyên.</p>
+                    <a href="product-detail.html?id=coffee" class="btn">
+                        Xem sản phẩm
+                    </a>
+                </article>
+
+                <article class="product-card">
+                    <img src="images/tea.jpg" alt="Trà gạo lứt Tây Nguyên">
+                    <h3>Trà gạo lứt Tây Nguyên</h3>
+                    <p>Thơm ngon, thanh mát, mang đậm hương vị tự nhiên.</p>
+                    <a href="product-detail.html?id=tea" class="btn">
+                        Xem sản phẩm
+                    </a>        
+                </article>
+                
+                <article class="product-card">
+                    <img src="images/spices.jpg"  alt="Tiêu đen Đắk Nông">
+                    <h3>Tiêu đen Đắk Nông</h3>
+                    <p>Hạt tiêu đen, hương vị cay nồng, chất lượng cao.</p>
+                    <a href="product-detail.html?id=spices" class="btn">
+                        Xem sản phẩm    
+                    </a>
+                </article> 
+                
+                <article class="product-card">
+                    <img src="images/honey.jpg" alt="Mật ong Tây Nguyên">
+                    <h3>Mật ong Tây Nguyên</h3>
+                    <p>Ngọt ngào, tinh khiết, được khai thác từ rừng nguyên sinh.</p>
+                    <a href="product-detail.html?id=honey" class="btn">
+                        Xem sản phẩm
+                    </a>                    
+                </article>
+
+                <article class="product-card">
+                    <img src="images/dried-fruits.jpg" alt="Bơ sáp Đắk Lắk">
+                    <h3>Bơ sáp Đắk Lắk</h3> 
+                    <p>Thơm ngon, béo ngậy, giàu dinh dưỡng và hương vị đặc trưng của vùng đất Tây Nguyên.</p>
+                    <a href="product-detail.html?id=dried-fruits" class="btn">
+                        Xem sản phẩm
+                    </a>        
+                </article>
+
+                <article class="product-card">
+                    <img src="images/clothes.jpg" alt="Thổ cẩm Tây Nguyên">
+                    <h3>Thổ cẩm Tây Nguyên</h3> 
+                    <p>Những sản phẩm thủ công tinh xảo, mang đậm bản sắc văn hóa của các dân tộc Tây Nguyên.</p>
+                    <a href="product-detail.html?id=clothes" class="btn">   
+                        Xem sản phẩm        
+                    </a>    
+                </article>
+
+            </div>
+            
+        </section>
+    </main>
+</body>
+
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2024 Đặc sản Tây Nguyên. All rights reserved.</p>
+    </div>                                                  
+</footer>
+
+</html>

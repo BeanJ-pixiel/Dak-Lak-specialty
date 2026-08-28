@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đặc sản Tây Nguyên</title>
+    <meta name="description" content="Khám phá những đặc sản độc đáo của Tây Nguyên, từ cà phê thơm ngon đến các món ăn truyền thống hấp dẫn.">     
+    <link rel="stylesheet" href="css/style.css">   
+</head>
+<body>
+    <header>
+        <h1>Đặc sản Tây Nguyên</h1> 
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Trang chủ</a></li>
+                <li><a href="products.html">Sản phẩm </a></li>
+                <li><a href="contact.html">Liên hệ</a></li>
+            </ul>   
+        </nav> 
+
+    </header>
+
+    <main>
+        <section class="product-detail">
+            <h1>Chi tiết sản phẩm</h1>
+            <p>Khám phá thông tin chi tiết về sản phẩm đặc sản Tây Nguyên.</p>
+
+            <div class="product-info">
+                <div class="product-description">
+                <img src="images/coffee.jpg" alt="Cà phê Buôn Ma Thuột">
+                    <h2>Cà phê Buôn Ma Thuột</h2>
+                    <p>Hương vị đậm đà, đặc trưng của núi rừng Tây Nguyên. Cà phê Buôn Ma Thuột nổi tiếng với chất lượng hảo hạng và hương thơm quyến rũ.</p>
+                    <dl>
+                        <dt>Xuất xứ:</dt>
+                        <dd>Buôn Ma Thuột, Đắk Lắk</dd>
+                        <dt>Loại:</dt>
+                        <dd>Cà phê Robusta</dd>
+                        <dt>Trọng lượng:</dt>
+                        <dd>500g</dd>
+                        <dt>Giá:</dt>
+                        <dd>200.000 VND</dd>
+                    </dl>
+                    <a href="#" class="btn">Thêm vào giỏ hàng</a>
+                </div>
+                
+                <div class="review">
+                    <h2>Đánh giá sản phẩm</h2>
+                    <p>Hãy để lại đánh giá của bạn về sản phẩm này.</p>
+                    <form id="review-form">
+                        <label for="name">Tên:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="rating">Đánh giá:</label>
+                        <select id="rating" name="rating" required>
+                            <option value="">Chọn đánh giá</option>
+                            <option value="5">5 sao</option>
+                            <option value="4">4 sao</option>
+                            <option value="3">3 sao</option>
+                            <option value="2">2 sao</option>
+                            <option value="1">1 sao</option>
+                        </select>
+
+                        <label for="comment">Bình luận:</label>
+                        <textarea id="comment" name="comment" rows="4" required></textarea>
+
+                        <button type="submit" class="btn">Gửi đánh giá</button>
+                    </form>                                                         
+                </div>
+
+                
+            </div>
+        </section>                                                                                                                                                                                                      
+    </main>
+</body>
+
+<footer>
+    <div class="footer-content">
+        <p>&copy; 2024 Đặc sản Tây Nguyên. All rights reserved.</p>
+    </div>                                                  
+</footer>
